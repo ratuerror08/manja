@@ -440,8 +440,8 @@ class Crack:
 							print("\n%sIsi yang benar %sGOBLOK's%s.....!!!"%(P,H,P))
 							manual()
 						elif ind in ('1', '01'):
-							print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-							print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+							print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+							print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 							jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 							with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 								for akun in self.id:
@@ -451,8 +451,8 @@ class Crack:
 									except: pass
 							hasil(ok,cp)
 						elif ind in ('2', '02'):
-							print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-							print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+							print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+							print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 							jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 							with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 								for akun in self.id:
@@ -462,8 +462,8 @@ class Crack:
 									except: pass
 							hasil(ok,cp)
 						elif ind in ('3', '03'):
-							print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-							print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+							print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+							print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 							jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 							with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 								for akun in self.id:
@@ -500,8 +500,8 @@ class Crack:
 			print("\n%sIsi yang benar %sGOBLOK's%s.....!!!"%(P,H,P))
 			self.langsung()
 		elif suuu in ('1', '01'):
-			print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-			print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+			print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+			print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 			jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 			with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 				for akun in self.id: 
@@ -516,8 +516,8 @@ class Crack:
 					except: pass
 			hasil(ok,cp)
 		elif suuu in ('2', '02'):
-			print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-			print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+			print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+			print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 			jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 			with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 				for akun in self.id: 
@@ -538,8 +538,8 @@ class Crack:
 					except: pass
 			hasil(ok,cp)
 		elif suuu in ('3', '03'):
-			print ('\n %s- %s[OK] %stersimpan di file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
-			print (' %s- %s[CP] %stersimpan di file : %sOK/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
+			print ('\n %s- %s[OK] %sdalam file : %sOK/%s.txt'%(P,H,P,H,waktu));jeda(0.2)
+			print (' %s- %s[CP] %sdalam file : %sCP/%s.txt'%(P,K,P,K,waktu));jeda(0.2)
 			jalan ('\n%s setiap crack 1k ID, mainkan mode pesawat %s2 %sdetik \n'%(P,H,P));jeda(0.2)
 			with ThreadPoolExecutor(max_workers=30) as TitidNeverDie:
 				for akun in self.id: 
