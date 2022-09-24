@@ -216,7 +216,7 @@ def Menu():
 
 def activate_licensi():
 	os.system("clear")
-	print("\n\n\x1b[1;97mScript BERLISENSI... ketik \x1b[1;95madmin\x1b[1;97m untuk chat admin, ketik \x1b[1;92mgets\x1b[1;97m untuk mengambil licensi melalui website RATUERROR\n")
+	print("\n\n\x1b[1;97mScript BERLISENSI...ketik \x1b[1;95madmin\x1b[1;97m untuk chat admin\n")
 	key = input(" [>] licensi: ").lower()
 	if "gets" in key:
 		os.system("xdg-open https://fbkey.ratuerror.com/register/")
