@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ratuerror08 
-ratuerror08
-/
-veak
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-veak/run
-@ratuerror08
-ratuerror08 Update run
-Latest commit 37991d1 on Jul 21
- History
- 1 contributor
-1126 lines (1074 sloc)  53.8 KB
-
 # coding=utf-8
 # coding by Romi Afrizal
 # Note : jangan di ubah lagi! nanti error, script udah enak
@@ -1153,18 +1124,3 @@ def hasil_fb():
 
 if __name__=="__main__":
 	Menu()
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-veak/run at main · ratuerror08/veak
