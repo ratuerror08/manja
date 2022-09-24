@@ -24,8 +24,6 @@ Hj = '\x1b[1;92m'
 Mt = '\x1b[0m'
  	
 # TANGGAL BULAN 
-ct = datetime.now()
-n = ct.month
 bulan_ = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 try:
 	if n < 0 or n > 12:
