@@ -1,5 +1,5 @@
-# coding=utf-8
-# coding by Romi Afrizal
+# Coding=utf-8
+# Author J3SSICA PUTRY
 # Note : jangan di ubah lagi! nanti error, script udah enak
  	
 # MODULE
@@ -63,7 +63,7 @@ def folder():
 	try:os.mkdir('data')
 	except:pass
 
-# LOGO (LO GOBLOK)
+# LOGO ()
 dt = requests.get("http://ip-api.com/json/").json()
 try:
 	IP = dt["query"]
@@ -71,10 +71,6 @@ try:
 except KeyError:
 	IP = " "
 	CN = " "
-
-author = 'Romi Afrizal'
-fb_me = 'facebook.com/romi.afrizal.102'
-github = 'github.com/Mark-Zuck'
 
 def logo():
 	time.sleep (0.01)
@@ -201,16 +197,12 @@ def Menu():
 	print (' %s[%s01%s] %sCrack dari publik'%(O,P,O,P))
 	print (' %s[%s02%s] %sCrack %sUNLIMITED'%(O,P,O,P,H))
 	print (' %s[%s03%s] %sCrack dari follower'%(O,P,O,P))
-	print (' %s[%s04%s] %sCrack dari reaction post'%(O,P,O,P))
-	print (' %s[%s05%s] %sCrack dari komentar post'%(O,P,O,P))
-	print (' %s[%s06%s] %sCrack dari anggota group'%(O,P,O,P))
-	print (' %s[%s07%s] %sCrack dari pencarian nama'%(O,P,O,P))
-	print (' %s[%s08%s] %sCrack dari pesan mesengger'%(O,P,O,P))
-	print (' %s[%s09%s] %sCrack dari saran teman'%(O,P,O,P))
-	print (' %s[%s10%s] %sLihat hasil crack'%(O,P,O,P))
-	print (' %s[%s11%s] %sCheckpoint detektor'%(O,P,O,P))
-	print (' %s[%s12%s] %sCek ID'%(O,P,O,P))
-	print (' %s[%s13%s] %sSpam limited editon'%(O,P,O,P))
+	print (' %s[%s04%s] %sCrack dari anggota group'%(O,P,O,P))
+	print (' %s[%s05%s] %sCrack dari pencarian nama'%(O,P,O,P))
+	print (' %s[%s06%s] %sLihat hasil crack'%(O,P,O,P))
+	print (' %s[%s07%s] %sCheckpoint detektor'%(O,P,O,P))
+	print (' %s[%s08%s] %sCek ID'%(O,P,O,P))
+	print (' %s[%s09%s] %sSpam limited editon'%(O,P,O,P))
 	print (' %s[%srm%s] %sHapus data login'%(O,P,O,P))
 	pilih(token,coki)
 
