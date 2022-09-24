@@ -128,7 +128,6 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	clear()
-	time.sleep (0.01)
 	print ('')
 	print ('')
 	jalan ('\x1b[1;97m                       _____---____ ')
