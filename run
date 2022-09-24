@@ -128,9 +128,8 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	clear()
-	alvino_xy(f'''{asu} ______                                              
-	print('')
-	print('')
+	alvino_xy(f'''{asu}                                             
+
 	{m}                       _____---____
 	{m}                    ________---_______
 	{m}         ___-----           __      ----_
